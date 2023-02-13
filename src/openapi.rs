@@ -6,6 +6,7 @@ pub fn run() {
     listen_to_channel("wasmedge", "general", |sm| {
         let cr = CompletionRequest {
             prompt: sm.text,
+            max_tokens: 100,
             ..Default::default()
         };
         let r = create_completion("openapi", cr);
