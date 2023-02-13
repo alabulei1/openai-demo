@@ -1,4 +1,4 @@
-use openai_flows::{CompletionRequest, completion}
+use openai_flows::{CompletionRequest, create_completion};
 use slack_flows::{listen_to_channel, send_message_to_channel};
 
 #[no_mangle]
