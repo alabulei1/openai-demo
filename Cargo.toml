@@ -1,3 +1,8 @@
+[package]
+name = "openapi-flow-simple"
+version = "0.1.0"
+edition = "2021"
+
 [lib]
 path = "src/openapi.rs"
 crate-type = ["cdylib"]
