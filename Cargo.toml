@@ -1,0 +1,10 @@
+[lib]
+path = "src/openapi.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+slack-flows = "0.2"
+serde_json = "1.0"
+store-flows = "0.1"
+meval = "0.2"
+openai-flows = "0.1.1"
